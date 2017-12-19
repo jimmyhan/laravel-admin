@@ -8,6 +8,12 @@ cd path/to/your_project
 composer install
 ```
 
+Install node modules
+
+```
+npm install
+```
+
 ## Setting Your .env
 
 ```
@@ -21,3 +27,9 @@ php artisan key:generate
 php artisan serve
 ```
 Open browser with url http://localhost:8000
+
+## Compile scss/js from resources/assets to public
+
+```
+npm run dev (or ‘npm run prod' for production)
+```
